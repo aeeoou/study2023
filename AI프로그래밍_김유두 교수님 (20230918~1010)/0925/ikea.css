@@ -1,0 +1,227 @@
+/* 최상단 검정박스 */
+.Box1 {
+  background-color: black;
+  width: 1905px;
+  height: 40px;
+  margin-top: -8px;
+  margin-left: -10px;
+}
+/* 베스트셀러 아이콘 */
+.icon1 {
+  position: absolute;
+  width: 35px;
+  height: 34px;
+  margin-top: -58px;
+  margin-left: 800px;
+  background-color: rgb(60, 151, 0);
+  background-image: url("베스트셀러.jpg");
+  background-size: 35px 34px;
+}
+/* 쉽고 편한 전화 주문, 헤이오더 아이콘 */
+.icon2 {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  margin-top: -35px;
+  margin-left: 955px;
+  background-color: rgb(251, 255, 0);
+  background-image: url("쉽고\ 편한\ 전화\ 주문\,\ 헤이오더.jpg");
+  background-size: 30px 30px;
+}
+/* 메뉴 아이콘 */
+.icon3 {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  margin-top: 23px;
+  margin-left: 170px;
+  background-color: rgb(255, 0, 221);
+  background-image: url("메뉴.jpg");
+  background-size: 25px 25px;
+}
+/* 이케아 로고 */
+.ikeaBox {
+  position: absolute;
+  width: 90px;
+  height: 40px;
+  margin-top: 26px;
+  margin-left: 270px;
+  background-color: black;
+  background-image: url("IKEA\ LOGO.jpg");
+  background-size: 90px 40px;
+}
+/* 검색어 입력 로고1 */
+.icon4 {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  margin-top: -58px;
+  margin-left: 415px;
+  background-color: rgb(255, 0, 221);
+  background-image: url("검색어\ 입력1.jpg");
+  background-size: 25px 25px;
+}
+/* 검색어 입력 로고2 */
+.icon5 {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  margin-top: -38px;
+  margin-left: 1445px;
+  background-color: rgb(90, 0, 78);
+  background-image: url("검색어\ 입력2.jpg");
+  background-size: 25px 25px;
+}
+/* 검색창 */
+.Box2 {
+  border-radius: 30px; /* 모서리 부분을 둥글게 만들어준다. */
+  background-color: rgba(245, 245, 245);
+  padding: 15px 50px 10px 50px;
+  width: 1000px;
+  height: 25px;
+  margin-top: -70px;
+  margin-left: auto; /* 왼쪽 마진을 auto로 설정하여 가로 중앙 정렬 */
+  margin-right: auto; /* 오른쪽 마진을 auto로 설정하여 가로 중앙 정렬 */
+}
+/* 검색창 밑 메뉴란 */
+.Box3 {
+  border: 1px rgb(230, 230, 230);
+  border-bottom-style: solid;
+  padding: 10px;
+  width: 1560px;
+  height: 9px;
+  text-align: left;
+  text-indent: -10px; /* 텍스트의 시작 위치를 왼쪽으로 -10px 강제 고정 */
+  font-size: 14px;
+  font-weight: bolder;
+  margin-left: 270px; /* 왼쪽 여백을 auto로 설정하여 가로 중앙 정렬 */
+}
+.imageBox1 {
+  position: absolute;
+  width: 500px;
+  height: 500px;
+  left: 250px; /* 왼쪽 여백 길이 설정 */
+  margin-top: 50px; /* 위쪽 여백 길이 설정 */
+  background-color: rgb(0, 0, 0);
+  background-image: url("ikeaimage1.jpg");
+  background-size: 500px 500px;
+}
+.imageBox2 {
+  position: absolute;
+  width: 500px;
+  height: 500px;
+  left: 800px; /* 왼쪽 여백 길이 설정 */
+  margin-top: 50px; /* 위쪽 여백 길이 설정 */
+  background-color: rgb(0, 0, 0);
+  background-image: url("ikeaimage2.jpg");
+  background-size: 500px 500px;
+}
+.imageBox3 {
+  position: absolute;
+  width: 500px;
+  height: 500px;
+  left: 250px; /* 왼쪽 여백 길이 설정 */
+  margin-top: 575px; /* 위쪽 여백 길이 설정 */
+  background-color: rgb(0, 0, 0);
+  background-image: url("ikeaimage3.jpg");
+  background-size: 500px 500px;
+}
+.imageBox4 {
+  position: absolute;
+  width: 500px;
+  height: 500px;
+  left: 800px; /* 왼쪽 여백 길이 설정 */
+  margin-top: 575px; /* 위쪽 여백 길이 설정 */
+  background-color: rgb(0, 0, 0);
+  background-image: url("ikeaimage4.jpg");
+  background-size: 500px 500px;
+}
+/* 상품명-품목-금액 */
+.rightBox1 {
+  position: absolute;
+  width: 400px;
+  height: 160px;
+  right: 125px; /* 오른쪽 여백 길이 설정 */
+  margin-top: 1px; /* 위쪽 여백 길이 설정 */
+  background-color: rgb(255, 255, 255);
+}
+/* 색상 옵션 이미지1 */
+.rightBox2 {
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  margin-top: 25px; /* 위쪽 여백 길이 설정 */
+  background-color: rgb(255, 0, 0);
+  background-image: url("옷걸이 나무색.jpg");
+  background-size: 70px 70px;
+}
+/* 색상 옵션 이미지2 */
+.rightBox22 {
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  margin-top: 25px; /* 위쪽 여백 길이 설정 */
+  margin-left: 80px;
+  background-color: rgb(194, 0, 0);
+  background-image: url("옷걸이\ 검정색.jpg");
+  background-size: 70px 70px;
+}
+/* 색상 옵션 이미지3 */
+.rightBox222 {
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  margin-top: 25px; /* 위쪽 여백 길이 설정 */
+  margin-left: 160px;
+  background-color: rgb(133, 0, 0);
+  background-image: url("옷걸이\ 흰색.jpg");
+  background-size: 70px 70px;
+}
+/* 배송-매장 구매 */
+.rightBox3 {
+  position: absolute;
+  width: 400px;
+  height: 145px;
+  margin-top: -20px; /* 위쪽 여백 길이 설정 */
+  border: 1px rgb(210, 210, 210) solid;
+  border-radius: 8px;
+}
+/* 수량 */
+.rightBox4 {
+  position: absolute;
+  width: 120px;
+  height: 55px;
+  right: 275px; /* 오른쪽 여백 길이 설정 */
+  margin-top: 140px; /* 위쪽 여백 길이 설정 */
+  border: 1px rgb(150, 150, 150) solid;
+  border-radius: 30px;
+  font-weight: bold;
+}
+/* 구매하기 */
+.rightBox5 {
+  position: absolute;
+  width: 260px;
+  height: 55px;
+  right: 0px; /* 오른쪽 여백 길이 설정 */
+  margin-top: 140px; /* 위쪽 여백 길이 설정 */
+  background-color: rgb(0, 90, 160);
+  border-radius: 30px;
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 55px;
+}
+/* 구매 개수 제한 안내 */
+.rightBox6 {
+  position: absolute;
+  width: 400px;
+  height: 100px;
+  right: 0px; /* 오른쪽 여백 길이 설정 */
+  margin-top: 210px; /* 위쪽 여백 길이 설정 */
+  background-color: rgb(255, 255, 255);
+  border: 4px rgb(0, 90, 160);
+  border-radius: 5px;
+  border-left-style: solid;
+  box-shadow: 5px 5px 10px rgb(220, 220, 220); /* 그림자 효과 */
+}

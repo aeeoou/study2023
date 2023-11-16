@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS</title>
+    <link rel="stylesheet" href="0922.css"></link>
+
+    <h1>CSS 기본 구조</h1>
+    <span style="color: teal;"><b> 1) 태그에 직접 CSS적용하기 (inline방식)</b></span> div 스타일 시작옵션(style) = "스타일명:스타일변수;" /div
+    <A style="border:1px;"></div><br/><br/>
+
+    <span style="color:tomato;"><b> 2) 헤드태그에서 CSS작성하기 (embedded방식)</b></span><br/><br/>
+
+    <span style="color: green;"><b> 3) 외부 파일에서 작성하고 연결하기 (external방식)</b></span>
+    <link rel="stylesheet" href="shared_vars.css"><hr/>
+
+    <h1>엘리먼트 선언</h1>
+    <div class="div_class"></div> div class="div_class" (클래스)
+    <div id="div_id"></div> div id="div_id" (아이디)
+    <div name="div_name"></div> div name="div_name" (네임)<hr/>
+
+    <h1>클래스</h1>
+    <div class="div_class1 div_class2"></div> div class="클래스명1 클래스명2 클래스명3" <br/><hr/>
+
+
+<!--실습1~2!-->
+    <h1><span style="color:brown;"> 실습1~2 </span></h1> <b>class 와 id의 개념을 테스트하는 과정</b><br/><br/>
+    <div class="div_class" id="div1">
+        <span class="span_class" name="span_name1" id="span11">언니네 이발관1</span>
+        <span class="span_class" name="span_name1" id="span12">언니네 이발관2</span>
+        <span class="span_class" name="span_name1" id="span13">언니네 이발관3</span>
+    </div><br/>
+    <div class="div_class" id="div2">
+        <span class="span_class" name="span_name2" id="span21">델리 스파이스1</span>
+        <span class="span_class" name="span_name2" id="span22">델리 스파이스2</span>
+        <span class="span_class" name="span_name2" id="span23">델리 스파이스3</span>
+    </div><br/>
+    <div class="div_class" id="div3">
+        <span class="span_class" name="span_name3" id="span31">CHIMMI1</span>
+        <span class="span_class" name="span_name3" id="span32">CHIMMI2</span>
+        <span class="span_class" name="span_name3" id="span33">CHIMMI3</span>
+    </div><br/>
+    <div class="div_class" id="div4">
+        <span class="span_class" name="span_name3" id="span31">브라운 아이즈1</span>
+        <span class="span_class" name="span_name3" id="span32">브라운 아이즈2</span>
+        <span class="span_class" name="span_name3" id="span33">브라운 아이즈3</span>
+    </div><br/>
+    <div class="div_class" id="div5">
+        <span class="span_class" name="span_name3" id="span31">스탠딩 에그1</span>
+        <span class="span_class" name="span_name3" id="span32">스탠딩 에그2</span>
+        <span class="span_class" name="span_name3" id="span33">스탠딩 에그3</span>
+    </div><br/><hr/>
+
+
+ <!--실습3~5-->
+    <h1><span style="color:brown;"> 실습3~5 </span></h1>
+
+<body>
+    <div style="color: rgb(136, 150, 77); font-weight: bold;">
+        ★ inline 방식으로 색 변경 실습하기! 아래는 텍스트 배경색과 크기 제어 부분을 실습한 것!<br/><br/>
+        1. background-color<br/>
+        2. display<br/>
+        3. width<br/>
+        4. height<br/>
+    </div><br/>
+    
+    <style>
+    div
+    {
+        border:2px solid rgb(219, 219, 143); 
+        background-color: rgb(255, 255, 242);
+        color: rgb(85, 121, 18);
+        width: 1000px;
+        height: 300px;
+        text-align: left;
+        text-decoration: underline;
+        text-indent: 120px;
+        font-family: Helvetica;
+        font-style: italic;
+        font-size: 115%;
+        line-height: 1.8;
+        top: 50px;
+        bottom: 20px;
+        left: 200px;
+        right: 200px;
+        overflow: auto;
+        overflow-x: scroll;
+        overflow-y: ;
+        position: ;
+        z-index: ; 
+    }
+    </style>
+
+    <div>
+        <b>★ embedded 방식으로 색 변경 실습하기! 아래는 텍스트 제어 부분을 실습한 것!</b><br/><br/>
+        &nbsp;&nbsp;1. color: 텍스트 색상을 변경한다.<br/>
+        &nbsp;&nbsp;2. text-align: 텍스트 내용을 수평으로 정렬한다. (left, right, center, justify)<br/>
+        &nbsp;&nbsp;3. text-decoration: 텍스트에 선을 스타일링하는데 사용된다. (overline, underline, uppercase, lowercase)<br/>
+        &nbsp;&nbsp;4. text-indent: 문단의 첫 번째 줄을 들여쓰기 하는 데 사용 (마이너스 값도 입력 가능)<br/>
+        &nbsp;&nbsp;5. font-family: 폰트를 지정하는데 사용<br/>
+        &nbsp;&nbsp;6. font-style: 텍스트의 스타일을 지정하는데 사용<br/>
+        &nbsp;&nbsp;7. font-size: 폰트의 크기 지정 (px, pt, % 등의 단위로 사용 가능)<br/>
+        &nbsp;&nbsp;8. line-height: 행간 높이를 지정<br/>
+        &nbsp;&nbsp;9. top: 요소를 상단에서 얼마나 떨어트릴지 지정 <br/>
+        &nbsp;&nbsp;10. bottom: 요소를 하단에서 얼마나 떨어트릴지 지정<br/>
+        &nbsp;&nbsp;11. left: 요소를 좌측에서 얼마나 떨어트릴지 지정<br/>
+        &nbsp;&nbsp;12. right: 요소를 우측에서 얼마나 떨어트릴지 지정<br/>
+        &nbsp;&nbsp;13. overflow: 요소 내용이 넘치는 경우 처리 방법을 지정한다. (auto, hidden, scroll)<br/>
+        &nbsp;&nbsp;14~15. overflow-x / -y: 요소의 가로 및 세로 방향으로 내용이 넘칠 때의 처리 방법을 설정<br/>
+        &nbsp;&nbsp;16. position: 요소의 위치 지정 방법을 설정한다. (static{기본위치}, relative{현재 위치를 기준으로 이동}, absolute{가장 가까운 상대적 위치 요소를 기준으로 이동}, fixed{뷰포트를 기준으로 고정})<br/>
+        &nbsp;&nbsp;17. z-index: 요소의 쌓임 순서(z-축 순서)를 지정한다. 값은 양의 정수 또는 auto가 되며, 높은 숫자가 더 상위에 쌓인다. <br/>
+    </div><br/><hr/><br/>
+
+    <ol>
+        <li>color: 텍스트 색상을 변경한다.</li>
+        <li>text-align: 텍스트 내용을 수평으로 정렬한다. (left, right, center, justify)</li>
+    </ol>
+
+<!----웹기초 2일차 또 이거?! 실습---->
+<body> 
+    <div1 class="div1_class"> CHIMMI1</div1>
+    <div2 class="div2_class"> CHIMMI2</div2>
+    <div3 class="div3_class"> CHIMMI3</div3>
+    <div4 class="div4_class"> CHIMMI4</div4>
+    <div5 class="div5_class"> CHIMMI5</div5>
+</body>
+
+</head>
+
+
+
+    
+
+
+
+
+
+
+
+
+

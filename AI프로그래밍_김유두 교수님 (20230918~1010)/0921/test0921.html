@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>20230921 웹기초 2일차 복습</title>
+  </head>
+  <body>
+    <b>13) "label태그"</b> 사용예시<br/>input태그와 함께 사용한다. for속성의 값을 input태그의 id와 동일하게 하면 label태그를 클릭한 것만으로도 해당 iuput태그를 클린하는 것과 같은 효과<br/><br/>
+    <label for="username"
+      >텍스트 입력 필드(input type=text와 label 사용 예시):</label
+    >
+    <input
+      type="text"
+      id="username"
+      name="username"
+      placeholder="사용자 이름을 입력하세요"
+    /><br/><br/>
+
+    <label>
+        <input type="radio" name="gender" value="male"/>남성
+    </label>
+    <label>
+        <input type="radio" name="gender" value="female"/>라디오 버튼(input type="radio"와 label 사용 예시)
+    </label><br/><br/>
+
+    <label>
+        <input type="checkbox" name="interest" value="programming"/>프로그래밍
+    </label>
+    <label>
+        <input type="checkbox" name="interest" value="design"/>디자인
+    </label>
+    <label>
+        <input type="checkbox" name="interest" value="random"/>체크 박스(input type="checkbox"와 label 사용 예시)
+    </label><br/><br/><hr/><br/>
+
+
+    <b>14) "h1~h6태그"</b><br/>
+    <h1>h1</h1><h2>h2</h2><h3>h3</h3><h4>h4</h4><h5>h5</h5><h6>h6</h6><h7>h7은 없다.. h1~6만 있다.</h7><br/><br/><hr/><br/>
+
+
+    <b><h1>15) "div태그"</h1>div태그는 자바스크립트에서 가장 많이 사용된다!</b><br/>특별한 역할을 하지 않는 영역. display속성이 block (한 라인을 모두 차지하는 방식)<br/>byGPT 블록 레벨 요소를 만들 때 사용되며, 주로 웹페이지의 구조와 스타일링을 조정하기 위해 사용된다.<br/><br/>
+    <div>
+        예시1 - 기본 div 사용 예시!
+    </div>
+    <div id="header"> <h2>예시2 - 웹 페이지 헤더</h2></div>
+    <div id="content"> <p>예시3 - 웹 페이지의 내용이 여기에 들어간다.</p></div>
+    <div id="footer"> <p>예시4 - 웹 페이지의 바닥글 정보가 여기에 들어간다.</p> <b>위의 코드에서는 div태그를 사용하여 웹 페이지의 레이아웃을 만들었다. 각 div요소에는 고유한 id가 지정되어 CSS스타일링이나 JavaScript와 같은 스크립트에서 사용될 수 있다.<br/><br/></b></div>
+    <div style="background-color: #ffcc00; padding: 20px; text-align: center;">예시5 - div와 스타일링 예시, 이 코드에서는 div태그에 인라인 스타일을 적용하여 배경색과 패딩을 설정하였다.</div>
+    </div><br/><br/><hr/><br/>
+
+
+    <b>16) "span태그"</b><br/>
+    특별한 역할을 하지 않는 영역? display속성이 inline (실제 자기 자신의 내용만큼의 크기만을 가짐?)<br/>
+    byGPT span태그는 텍스트나 인라인 요소를 그룹화하고? 스타일을 적용하기 위해 사용되는 HTML 인라인 요소다.<br/><br/>
+    <span>예시1 - 기본</span> <span>사용 예시</span> 입니다. <br/>
+    <span style="color: blue; font-weight: bold;">예시2 - span을 사용한 스타일링 예시다. 파란색과 볼드체 span으로 스타일링 되었다.</span><br/>
+    예시3 - 이 텍스트는 <span id="dynamicText">동적으로 변경된다.</span>
+    <script>document.getElementById("dynamicText").textContent = "이제 동적으로 변경된다.";</script> 이 코드에서는 span태그에 고유한 id를 부여하고 javascript를 사용하여 텍스트를 동적으로 변경하고 있다.<br/>
+    예시4 - 이 span텍스트에는 <span style="background-color: yellow;">노란색 배경 span이 있다.</span>" 이 코드에서는 중첩된 span요소를 사용하여 텍스트 일부에만 스타일을 적용했다. 이것은 텍스트의 특정 부분을 강조하거나 스타일링하기 위해 유용하다.<br/><br/><hr/><br/>
+
+
+    <b>17) "video, audio, iframe태그"</b><br/>
+    <video width="640" height="480" controls>
+        <source src="[LIVE]CHIMMI(취미) - I don't want no champagne.mp4" type="video/mp4"></video><br/>
+        <span style="color: darkcyan; font-weight: bold;"> 띵곡주의! CHIMMI - I don't want no champagne</span><br/><br/>
+    * controls 속성을 추가하여 플레이어 컨트롤(재생,일시 정지, 볼륨 조절 등)을 표시한다.<br/>
+    * source 요소를 사용하여 여러 비디오 형식을 지원하며, 브라우저가 지원하지 않는 경우 "Your browser does not support the video tag" 메시지가 표시된다. <br/><br/>
+
+    <audio controls>
+        <source src="X2Download.app - [LIVE]CHIMMI(취미) - I like it (320 kbps).mp3" type="audio/mgeg"><br/>
+        <span style="color: chocolate; font-weight: bold;"> 으아아아! CHIMMI - I like it</span>"<br/><br/>
+    * controls 속성을 추가하여 오디오 플레이어 컨트롤을 표시한다.<br/>
+    * source 요소를 사용하여 여러 비디오 형식을 지원하며, 브라우저가 지원하지 않는 경우 "Your browser does not support the video tag" 메시지가 표시된다. <br/><br/> </audio>
+
+    <iframe src="https://www.instagram.com/chimmimusic/" width="800" height="600"></iframe><br/>
+    * iframe태그는 외부 웹 페이지를 내장할 수 있다.
+
+
+
+
+
+
+
+
+  </body>
+</html>

@@ -1,0 +1,59 @@
+.box1 {
+  border: 3px dotted #8ac3ff;
+  padding: 10px;
+  width: 1000px;
+  text-align: center; /* 텍스트의 위치를 중앙으로 정렬 */
+}
+.box2 {
+  border: 3px dashed #6bb3ff;
+  padding: 10px;
+  width: 1000px;
+  text-align: center;
+}
+.box3 {
+  border: 3px solid #55a7ff;
+  padding: 10px;
+  width: 1000px;
+  text-align: center;
+  border-radius: 10px; /* 모서리 부분을 둥글게 만들어준다. */
+}
+.box4 {
+  border: 3px double #218dff;
+  padding: 10px;
+  width: 1000px;
+  text-align: center;
+}
+.box5 {
+  border: 7px groove #007bff;
+  padding: 10px;
+  width: 1000px;
+  text-align: center;
+}
+.box6 {
+  border: 7px ridge #a700d1;
+  padding: 10px;
+  width: 1000px;
+  text-align: center;
+}
+.box7 {
+  border: 7px inset #004c9e;
+  padding: 10px;
+  width: 1000px;
+  text-align: center;
+}
+.box8 {
+  border: 7px outset #4b0000;
+  padding: 10px;
+  width: 1000px;
+  text-align: center;
+}
+.box9 {
+  border: 5px #00be75;
+  border-top-style: dashed; /* 위쪽 테두리만 스타일 변경 */
+  border-bottom-style: groove; /* 아래쪽 테두리만 스타일 변경 */
+  border-left-style: double; /* 왼쪽 테두리만 스타일 변경 */
+  border-right-style: inset; /* 오른쪽 테두리만 스타일 변경 */
+  padding: 10px;
+  width: 1000px;
+  text-align: center;
+}

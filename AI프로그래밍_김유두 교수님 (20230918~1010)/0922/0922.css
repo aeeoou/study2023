@@ -1,0 +1,60 @@
+/* 웹기초 2일차 또 이거?! 실습 */
+.div1_class {
+  position: absolute;
+  width: 850px;
+  height: 265px;
+  border: 5px solid rgb(240, 240, 240);
+  background-color: aquamarine;
+  background-image: url("1011.jpg");
+  background-size: 844px 280px;
+  background-repeat: no-repeat;
+  color: rgb(white);
+}
+
+.div2_class {
+  position: absolute;
+  left: 856px; /* 요소 왼쪽 여백 추가 */
+  width: 256px;
+  height: 915px;
+  border: 5px solid rgb(240, 240, 240);
+  background-color: aquamarine;
+  background-image: url("10444.jpg");
+  background-size: 400px 915px;
+}
+
+.div3_class {
+  position: absolute;
+  left: 8px; /* 요소 왼쪽 여백 추가 */
+  width: 256px;
+  height: 915px;
+  border: 5px solid rgb(240, 240, 240);
+  background-color: aquamarine;
+  margin-top: 270px; /* 요소 위쪽 여백 추가 */
+  background-image: url("1044.jpg");
+  background-size: 440px 915px;
+}
+
+.div4_class {
+  position: absolute;
+  left: 269px; /* 요소 왼쪽 여백 추가 */
+  width: 582px;
+  height: 645px;
+  border: 5px solid rgb(240, 240, 240);
+  background-color: aquamarine;
+  margin-top: 270px; /* 요소 위쪽 여백 추가 */
+  background-image: url("1055.jpg");
+  background-size: 700px 650px;
+}
+
+.div5_class {
+  position: absolute;
+  left: 269px; /* 요소 왼쪽 여백 추가 */
+  width: 843px;
+  height: 265px;
+  border: 5px solid rgb(240, 240, 240);
+  background-color: aquamarine;
+  margin-top: 920px; /* 요소 위쪽 여백 추가 */
+  background-image: url("1066.jpg");
+  background-size: 842px, 100px;
+  background-repeat: no-repeat;
+}

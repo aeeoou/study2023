@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>20230925 수업 (20230926 복습 진행 중)</title>
+    <script src="20230925.js"></script>
+    <link rel="stylesheet" href="20230925.css"></link>
+</head>
+
+<body>
+    <h1>화면표시 관련 옵션?-태그?들</h1>
+    <span style="color: red;"><h3>display</h3></span>                   <!----display---->
+    : none (보이지 않게) <br/>
+    : visibility (보이게 {생략해도 됨})<br/>
+    <span style="color: rgba(151, 83, 19, 0.815);">
+        : block (박스형태의 공간) <b>block의 특징! "width, height" 값과 "margin, padding" 을 지정할 수 있다.</b><br/>
+        : inline (컨텐츠를 작성하는 공간) <b>inline의 특징! "width, height" 값을 지정할 수 없다. "margin" 은 위 아래 지정 불가</b><br/>
+        : inline-block (박스형태의 컨텐츠를 작성하는 공간) <b>inline-block의 특징! 줄바꿈이 일어나지 않는다. 크키가 조절은 되지만 지정하지 않으면 컨텐츠 만큼만 잡힌다.</b>
+    </span><br/>
+   
+    <span style="color: red";><h3>여백</h3></span>                     <!----여백---->
+    margin: <br/>
+    margin-"top, bottom, left, right": <br/>
+    <b>예시) "top right bottom left;", "top(right & left) bottom;", "(top&bottom) (left & right);", "all;" </b><br/>
+    padding: 테두리와 콘텐츠 사이의 여백을 조절하는데 사용 <br/>
+    <b>예시)<br/>padding: 10px;<br/>padding-"top, bottom, left, right": 10px;<br/>padding: 10px; 11px; 12px; 13px; (top, right, bottom, left 순서)</b></b.><br/><br/><hr/>
+
+
+    <h2>실습1) 외곽선 효과 넣어보기</h2>
+    <span style="color: rgb(255, 112, 112);"><h3>border: 1px #000000 solid; (none, hidden 옵션도 있음)<br/>border-style:<br/>border-radius: 10px</h3></span>      
+    <div class="box1"> dotted : 짧은 점과 간격이 있는 공백으로 구성</div><br/>
+    <div class="box2"> dashed : 줄 모양의 일정한 간격으로 이루어진 대쉬와 공백으로 구성</div><br/>
+    <div class="box3"> solid  : 실선으로 표현</div><br/>
+    <div class="box4"> double : 두줄 표현 </div><br/>
+    <div class="box5"> groove : 입체적인 효과를 준다.</div><br/>
+    <div class="box6"> ridge : 입체적인 효과를 준다.</div><br/>
+    <div class="box7"> inset : 안쪽으로 푹 파인 효과</div><br/>
+    <div class="box8"> outset : 바깥으로 튀어나온 효과</div><br/>
+    <div class="box9"> border-"top, bottom, left, right"-style : </div><br/>
+</body>
+</html>
